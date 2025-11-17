@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Водій</title>
+    <style>
+        body { font-family: sans-serif; padding: 15px; background: #f0f2f5; color: #000; }
+        .card { background: #fff; padding: 15px; border-radius: 10px; margin-bottom: 10px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .btn { width: 100%; padding: 10px; background: #28a745; color: white; border: none; border-radius: 5px; font-weight: bold; font-size: 16px; }
+        .active-order { border: 2px solid #28a745; background: #e8f5e9; }
+        h3 { text-align: center; margin: 5px 0 15px; color: #555; }
+    </style>
+</head>
+<body>
+    <div id="current-job"></div>
+    <h3>Доступні замовлення</h3>
+    <div id="orders-list" style="text-align:center; color:#777;">Завантаження...</div>
+
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="./driver.js"></script>
+</body>
+</html>
